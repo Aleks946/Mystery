@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nails_By_Genta</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="./Nails_By_Genat.css">
+</head>
+
+<body>
+  <nav>
+    <button class="menu-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="nav-left">
+      <a href="#section">Home</a>
+      <a href="#nail-type">Nails</a>
+      <a href="#footer">Informacion</a>
+      <a href="#wishlist">Wishlist</a>
+    </div>
+
+    <div class="search-container">
+      <input type="search" placeholder="Search..." id="searchBar" />
+    </div>
+
+    <div class="logo">
+      <img src="./508613036_18270781663272920_4340374708195679662_n.jpg" alt="Logo" />
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#section">Home</a>
+      <a href="#nail-type">Nails</a>
+      <a href="#footer">Informacion</a>
+      <a href="#wishlist">Wishlist</a>
+    </div>
+  </nav>
+
+  <section id="section">
+    <h1 style="text-align: center; font-size: 40px;">Welcome to <br><span style="color: #e91e63;">Nails_By_Genta</span></h1>
+    <p style="padding: 0 20px;">
+      Zbuloni artin e thonjve në një tjetër nivel me nails_by_genta!<br />
+      Krijime unike, delikate dhe plot stil për çdo shije – nga thonjtë natyralë dhe klasikë, deri tek dizajnet më të guximshme e kreative.<br /><br />
+      ✨ Shërbimet tona përfshijnë:<br />
+      • Manikyr & Pedikyr profesional<br />
+      • Thonj xhel & akrilik<br />
+      • Dekorime artistike sipas dëshirës<br />
+      • Kujdes dhe trajtim për thonjtë natyralë<br /><br />
+      📍 Bazuar në Stadiumi, Elbasan<br />
+      🗓 Rezervo tani dhe lejo duart e tua të flasin me stil!<br /><br />
+      📲 Instagram: @_nails_by_genta_ <br />
+      📞 069 261 1351
+    </p>
+  </section>
+
+  <section id="nail-type">
+    <h1 style="text-align: center;">Nail Types</h1>
+    <div id="img">
+      <!-- Reusable Cards -->
+      <div class="nail-card">
+        <img src="./500284144_18268022965272920_3014952081217865170_n.jpg" alt="Red Sparkle" />
+        <h2>Red Sparkle</h2>
+        <button class="zoom-toggle">Zoom</button><br>
+        <button class="WishList">Add to Wishlist</button>
+      </div>
+      <div class="nail-card">
+        <img src="./503477626_18270996199272920_6714777699928980043_n.jpg" alt="Blue French Tips" />
+        <h2>Blue French Tips</h2>
+        <button class="zoom-toggle">Zoom</button><br>
+        <button class="WishList">Add to Wishlist</button>
+      </div>
+      <div class="nail-card">
+        <img src="./504264748_18269877340272920_6414755123678575038_n.jpg" alt="Yellow French Tips" />
+        <h2>Yellow French Tips</h2>
+        <button class="zoom-toggle">Zoom</button><br>
+        <button class="WishList">Add to Wishlist</button>
+      </div>
+      <div class="nail-card">
+        <img src="./508645328_18270779896272920_3551123541005284251_n.jpg" alt="White French Tips" />
+        <h2>White French Tips</h2>
+        <button class="zoom-toggle">Zoom</button><br>
+        <button class="WishList">Add to Wishlist</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="wishlist">
+    <h2>Your Wishlist</h2>
+    <div class="wishlist-items" id="wishlistItems"></div>
+  </section>
+
+  <footer id="footer">
+    <a href="https://www.instagram.com/_nails_by_genta_/" target="_blank">
+      <i class="fab fa-instagram" style="font-size: 30px;"></i>
+    </a>
+    <div class="map-responsive">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18..."
+        loading="lazy" allowfullscreen></iframe>
+    </div>  
+    <br />
+    <img src="./508613036_18270781663272920_4340374708195679662_n.jpg" width="100" alt="Footer Logo" style="margin-bottom: 10px; margin-top: 10px;">
+    <br />
+    &copy; 2025 Nails_By_Genta — All rights reserved
+  </footer>
+
+  <script src="./Nails_By_Genta.js"></script>
+</body>
+</html>
